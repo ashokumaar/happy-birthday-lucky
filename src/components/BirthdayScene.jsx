@@ -6,10 +6,12 @@ import * as THREE from 'three';
 import Confetti from 'react-confetti';
 import useWindowSize from 'react-use/lib/useWindowSize';
 import messages from '../utils/birthdayWishes.js';
+import cake from '../assets/cake.glb';
+import birthdaySong from '../assets/happy-birthday.mp3';
 import './BirthdayScene.css';
 
 function CakeModel() {
-  const { scene } = useGLTF('/cake.glb');
+  const { scene } = useGLTF(cake);
   const cakeRef = useRef();
 
   React.useEffect(() => {
@@ -118,7 +120,7 @@ export default function BirthdayScene() {
 
   const handleCelebrate = () => {
     setShowConfetti(true);
-    const audio = new Audio('/birthday.mp3');
+    const audio = new Audio(birthdaySong);
     audio.play();
   };
 
