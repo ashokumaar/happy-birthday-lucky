@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/happy-birthday-lucky/static/css/main.66b89357.css",
+    "main.js": "/happy-birthday-lucky/static/js/main.597320df.js",
+    "static/js/453.166084a6.chunk.js": "/happy-birthday-lucky/static/js/453.166084a6.chunk.js",
+    "index.html": "/happy-birthday-lucky/index.html",
+    "main.66b89357.css.map": "/happy-birthday-lucky/static/css/main.66b89357.css.map",
+    "main.597320df.js.map": "/happy-birthday-lucky/static/js/main.597320df.js.map",
+    "453.166084a6.chunk.js.map": "/happy-birthday-lucky/static/js/453.166084a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.66b89357.css",
+    "static/js/main.597320df.js"
+  ]
+}
