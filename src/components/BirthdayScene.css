@@ -1,0 +1,87 @@
+/* src/components/BirthdayScene.css */
+
+.birthday-wrapper {
+  width: 100vw;
+  height: 100vh;
+  background: radial-gradient(circle, #ffe0f0 0%, #ffffff 100%);
+  overflow: hidden;
+  position: relative;
+}
+
+.controls {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: #333;
+}
+
+.title {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #d63384;
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #ff69b4;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  margin: 10px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #ff85c1;
+}
+
+.final-message {
+  font-size: 1.5rem;
+  color: #6f42c1;
+  margin-top: 20px;
+}
+
+.black-screen {
+  width: 100vw;
+  height: 100vh;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.lights-button {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.lights-button:hover {
+  background-color: #ffca2c;
+}
+
+
+
+.lights-button {
+  padding: 20px 40px;
+  font-size: 1.5rem;
+  background-color: #ffc107;
+  color: black;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.lights-button:hover {
+  background-color: #ffca2c;
+}
